@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>GTCC-Bem Vindo</title>
-</head>
-<body>
- <nav>
-   <img src="" alt="imagem-logo">
- </nav>
- 
- <section class="login-quadro">
-  <h1>LOGIN</h1>
-  <form>
-   <label for="username">Usuário:</label><br>
-   <input type="text" id="username" name="username"><br>
-   <label for="pwd">Senha:</label><br>
-   <input type="password" id="pwd" name="pwd">
- </form>
- <input type="button" value="Acessar">
- </section>
- 
- <footer>
-  
- </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTCC - Acesso</title>
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container container-signin">
+      <header>GTCC</header>
+
+      <section class="sec-login">
+        <form class="form-login">
+          <h1>ENTRAR</h1>
+          <div>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Usuário"
+            /><br />
+            <input type="password" id="pwd" name="pwd" placeholder="Senha" />
+          </div>
+          <input class="btn-login" type="button" value="Acessar" />
+        </form>
+      </section>
+
+      <footer>
+        <img
+          src="img/logo_VixBay-LogoMarca BRANCA.png"
+          width="110"
+          alt="log-vitória"
+        />
+      </footer>
+    </div>
+  </body>
 </html>
