@@ -8,10 +8,13 @@ body{
     width: 100%;
     height: 100vh;
     background: #FCF9D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header{
-    background-color: rgba(9, 166, 163, 1);
+    background-color: #09a6a3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +23,27 @@ header{
     font-size: 30px;
     color: white; 
     font-family: "Poiret One", sans-serif;
+}
+
+.btn-action{
+    position: relative;
+    background-color: #ffffff;
+    border: #09a6a3 solid 1px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    font-size: xx-large;
+    color: #09a6a3;
+    left: 150px;
+    top: 18px;
+}
+.btn-action:hover{
+    background-color: #09a6a3;
+    color: #ffffff;
 }
 
 h1 {
@@ -36,8 +60,6 @@ h1 {
     justify-content: center;
     width: 600px;
     height: 400px;
-    margin: 31vw;
-    margin-top: 20vh;
     box-shadow: 0 0 1000px 0  #09a6a38e;
 }
     
