@@ -1,26 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
- <link rel="stylesheet" href="src/style.css">
+ <title>GTCC - Cadastro de Alunos</title>
+ 
+ <link
+ href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+ rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
- <nav>
-  <div class="navbar">
-  </div>
- </nav>
- 
- <div class="dashboard-addAluno">
-  <h1>Adicionar Aluno</h1>
-  <input type="text" name="" id="">
-  <input type="text" name="" id="">
-  <input type="text" name="" id="">
- </div>
 
- 
- <footer></footer>
+<header class="head">GTCC</header>
+
+<div class="container">    
+    <div class="workspace">
+        <div class="head">Cadastro de Alunos
+            <button class="btn-action">+</button>
+        </div>
+            
+        <div class="forms">
+            <form class="form-addaluno">
+                <input class="input-addaluno" style="width:  150px;" type="text" placeholder="Nome Completo">
+                <input class="input-addaluno" style="width:  110px;" type="text" placeholder="Matricula">
+                <input class="input-addaluno" style="width:  110px;" type="date" placeholder="Data de Nascimento">
+                <input class="input-addaluno" style="width:  90px;" type="tel" placeholder="Contato">
+                <input class="btn-default btn-search" type="button" value="ADD">
+            </form>
+                    <table border="1">
+                        <tr class="table-title">
+                            <td>Nome</td>
+                            <td>Matricula</td>
+                            <td>Data de nascimento</td>
+                            <td>Contato</td>
+                        </tr>
+                        <tr>
+                            <td>Alessandro santos</td>
+                            <td>6922203779</td>
+                            <td>15/03/2001</td>
+                            <td>279999999</td>
+                        </tr>
+                        
+                    </table>
+        
+        </div> 
+    </div>
+</div> <!-- Fim d container -->
+
+<footer>
+<img
+ src="../img/logo_VixBay-LogoMarca BRANCA.png"
+ width="70"
+ alt="log-vitória"
+/>
+</footer>
 </body>
 
 </html>

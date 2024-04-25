@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GTCC - Acesso</title>
+    <title>GTCC - Dashboard</title>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
@@ -14,22 +14,46 @@
 </head>
 <body>
     
-        <header>GTCC</header>
-  <div class="container">
-        <div class="workspace">
-            <header>DASHBOARD
-                <button class="btn-action">+</button>
-            </header>
+  <header class="head">GTCC</header>
 
+  <div class="container">    
+    <div class="workspace">
+      <div class="head">DASHBOARD
+          <button class="btn-action">+</button>
+      </div>
+        <div class="search">
+          <input class="input-search" type="search" placeholder="Buscar dados">
+            <input class="btn-default btn-search" type="button" value="Buscar">
         </div>
+        <table border="1">
+          <tr class="table-title">
+              <td>Nome</td>
+              <td>Idade</td>
+              <td>Profissão</td>
+          </tr>
+          <tr>
+              <td>Ted</td>
+              <td>22</td>
+              <td>Estudante</td>
+          </tr>
+          <tr>
+              <td>Ralf</td>
+              <td>26</td>
+              <td>Designer</td>
+          </tr>
+      </table>
+      
+      </div> 
+    </div>
+  </div> <!-- Fim d container -->
   
-        <footer>
-          <img
-            src="../img/logo_VixBay-LogoMarca BRANCA.png"
-            width="70"
-            alt="log-vitória"
-          />
-        </footer>
+  <footer>
+    <img
+      src="../img/logo_VixBay-LogoMarca BRANCA.png"
+      width="70"
+      alt="log-vitória"
+    />
+  </footer>
 </body>
 
 </html>

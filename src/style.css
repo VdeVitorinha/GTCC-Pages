@@ -4,16 +4,11 @@ body{
     padding: 0;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    background: #FCF9D8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 header{
+    position: fixed;
+}
+.head{
     background-color: #09a6a3;
     display: flex;
     align-items: center;
@@ -23,6 +18,34 @@ header{
     font-size: 30px;
     color: white; 
     font-family: "Poiret One", sans-serif;
+    top: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #FCF9D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workspace{
+    background-color: #ffffff;
+    display: grid;
+    align-items: top;
+    justify-content: center;
+    box-shadow: 0 0 1000px 0  #09a6a38e;
+}
+
+.forms{
+    font-family: "Poiret One", sans-serif;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 600px;
+    margin: 4px;
+    margin-top: 25px;
 }
 
 .btn-action{
@@ -46,23 +69,44 @@ header{
     color: #ffffff;
 }
 
-h1 {
+.btn-default{
+    cursor: pointer;
+    background-color: #000;
+    width: 310px;
+    height: 35px;
+    padding: 0px;
+    padding-right: 10px;
+    color: white;
+    text-align: right;
+    font-size: x-large;
+}
+.btn-default:hover{
+    background-color: #ffffff;
+    color: #000;
+    border: #0000005e solid 1px;
+}
+
+h1{
     font-family: "Poiret One", sans-serif;
     font-size: 70px;
     color: white;
-    }
-
-.workspace{
-    background-color: #ffffff;
-    font-family: "Poiret One", sans-serif;
-    display: flex;
-    align-items: top;
-    justify-content: center;
-    width: 600px;
-    height: 400px;
-    box-shadow: 0 0 1000px 0  #09a6a38e;
 }
     
+table,  th, td{
+    border: #09a6a3 solid 1px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Poiret One", sans-serif;
+    text-align: left;
+}
+.table-title{
+    background-color: #09a6a3;
+    color: #ffffff;
+}
+
+
 footer{
     position: fixed;
     background-color: rgba(9, 166, 163, 1);
@@ -89,7 +133,7 @@ footer{
     align-items: center;
     justify-content: center;
     margin: 30px;
-    margin-left: 200px;
+    margin-right: 500px;
     padding: 30px;
     font-family: "Poiret One", sans-serif;
     text-align: center;
@@ -107,18 +151,38 @@ input {
     font-size: large;
 }
 
-.btn-login{
-    cursor: pointer;
-    background-color: #000;
-    width: 310px;
-    height: 40px;
-    padding: 0px;
-    padding-right: 10px;
-    color: white;
-    text-align: right;
-    font-size: x-large;
+/* Page Dashboard */
+.search{
+    font-family: "Poiret One", sans-serif;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 600px;
+    margin: 4px;
+    margin-top: 25px;
 }
-.btn-login:hover{
-    background-color: #ffffff;
-    color: #000;
+
+.btn-search{
+    width: 77px;
+    padding: 5px;
+}
+
+/* Page ADD Alunos */
+.form-addaluno{
+
+}
+.input-addaluno{
+    margin-left: 5px;
+    font-size: small;
+    height: 25px;
+    width: 77px;
+    padding: 5px;
+}
+/* Page ADD Alunos */
+.input-cadtcc{
+    margin-left: 5px;
+    font-size: small;
+    height: 25px;
+    width: 77px;
+    padding: 5px;
 }
